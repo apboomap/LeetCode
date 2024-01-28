@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode._0001_0050
+namespace LeetCode.Test
 {
     internal class _009_Palindrome_Number_Test
     {
