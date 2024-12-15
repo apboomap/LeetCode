@@ -9,7 +9,7 @@ namespace LeetCode
 {
     public class Untils
     {
-        public  static ListNode GenrateListNode(int[] nums)
+        public static ListNode? GenrateListNode(int[]? nums)
         {
             if (nums == null || nums.Length == 0) return null;
             var fist = new ListNode(nums[0]);

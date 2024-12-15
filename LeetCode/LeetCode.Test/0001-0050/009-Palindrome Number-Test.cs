@@ -9,37 +9,30 @@ namespace LeetCode.Test
     internal class _009_Palindrome_Number_Test
     {
 
-        [Test]
-        public void IsPalindrome_True()
+        private _009_Palindrome_Number _solution = null!;
+        [SetUp]
+        public void SetUp()
         {
-            var x = 121;
-
-            var solution = new _009_Palindrome_Number();
-            var result = solution.IsPalindrome(x);
-
-            Assert.That(result, Is.EqualTo(true));
+            _solution = new _009_Palindrome_Number();
         }
 
-        [Test]
-        public void IsPalindrome_LessThanZero()
+        [TestCase(121, true)]
+        [TestCase(0, true)]
+        [TestCase(10, false)]
+        public void IsPalindrome_True(int value, bool expected)
         {
-            var x = -121;
+            var result = _solution.IsPalindrome(value);
 
-            var solution = new _009_Palindrome_Number();
-            var result = solution.IsPalindrome(x);
-
-            Assert.That(result, Is.EqualTo(false));
+            Assert.That(result, Is.EqualTo(expected));
         }
 
-        [Test]
-        public void IsPalindrome_False()
+        [TestCase(-121, false)]
+        public void IsPalindrome_LessThanZero(int value, bool expected)
         {
-            var x = 10;
+            var result = _solution.IsPalindrome(value);
 
-            var solution = new _009_Palindrome_Number();
-            var result = solution.IsPalindrome(x);
-
-            Assert.That(result, Is.EqualTo(false));
+            Assert.That(result, Is.EqualTo(expected));
         }
+
     }
 }

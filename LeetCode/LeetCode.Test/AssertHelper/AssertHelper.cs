@@ -10,24 +10,31 @@ namespace LeetCode.Test
     public class AssertHelper
     {
 
-        public static void AssertNodeList(int[] expected, ListNode actual)
+        public static void AssertNodeList(int[]? expected, ListNode? actual)
         {
             if (actual is null && expected is null)
             {
                 Assert.True(true);
                 return;
             }
+            
+            if (expected is null) {
+                Assert.IsNotNull(expected);
+                return;
+            }
 
-            Assert.IsNotNull(actual);
-            Assert.IsNotNull(expected);
-            Assert.IsTrue(expected.Any());
+            if (actual is null){
+                Assert.IsNotNull(actual);
+                return;
+            }
+          
 
-            ListNode current = actual;
+            ListNode? current = actual;
             for (int i = 0;i < expected.Length;i++)
             {
                 Assert.IsNotNull(current);
-                Assert.That(expected[i], Is.EqualTo(current.val));
-                current = current.next;
+                Assert.That(expected[i], Is.EqualTo(current?.val));
+                current = current?.next;
             }
             Assert.IsNull(current);
         }

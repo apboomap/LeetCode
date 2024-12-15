@@ -38,6 +38,10 @@ namespace LeetCode
                     if (value != tmpParenthese) return false;
                     stack.Pop();
                 }
+                else 
+                {
+                    return false;
+                }
             }
             return !stack.Any();
         }
