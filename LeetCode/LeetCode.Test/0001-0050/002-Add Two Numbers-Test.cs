@@ -2,7 +2,7 @@
 
 using LeetCode._0001_0050;
 
-namespace LeetCode.Test
+namespace LeetCode.Test._0001_0050
 {
     public class _002_Add_Two_Numbers_Test
     {

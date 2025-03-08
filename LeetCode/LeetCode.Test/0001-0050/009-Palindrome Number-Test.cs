@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LeetCode._0001_0050;
 
-namespace LeetCode.Test
+namespace LeetCode.Test._0001_0050
 {
     internal class _009_Palindrome_Number_Test
     {

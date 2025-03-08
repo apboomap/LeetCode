@@ -1,4 +1,6 @@
-﻿namespace LeetCode.Test
+﻿using LeetCode._0001_0050;
+
+namespace LeetCode.Test._0001_0050
 {
     public class _013_Roman_to_Integer_Test
     {

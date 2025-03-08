@@ -1,8 +1,9 @@
 ﻿
 
+using LeetCode._0001_0050;
 using NUnit.Framework.Internal;
 
-namespace LeetCode.Test
+namespace LeetCode.Test._0001_0050
 {
     [TestFixture]
     public class _001_Two_Sum_Test
