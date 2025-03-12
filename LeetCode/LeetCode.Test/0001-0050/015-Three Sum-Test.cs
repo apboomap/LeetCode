@@ -2,9 +2,9 @@ using LeetCode._0001_0050;
 
 namespace LeetCode.Test._0001_0050;
 
-public class _003_Three_Sum_Test
+public class _015_Three_Sum_Test
 {
-    private _003_Three_Sum _solution;
+    private _015_Three_Sum _solution;
     [SetUp]
     public void SetUp()
     {
@@ -24,9 +24,16 @@ public class _003_Three_Sum_Test
     [TestCaseSource(nameof(ThreeSumTestCases))]
     public void Three_Sum_AdditionalCases(int[] values, List<List<int>> expected)
     {
+        // Act
         var result = _solution.ThreeSum(values);
-        Assert.That(result, Is.EquivalentTo(expected));
-        // CollectionAssert.AreEquivalent(expected, result);         
+
+        // Assert
+        Assert.That(result, Has.Count.EqualTo(expected.Count));
+
+        for (int i = 0; i < expected.Count; i++)
+        {
+            CollectionAssert.AreEquivalent(expected[i], result[i]);
+        }    
     }
 
     [TestCase]
