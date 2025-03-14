@@ -4,9 +4,9 @@ using LeetCode._0001_0050;
 
 namespace LeetCode.Test._0001_0050
 {
-    public class _002_Add_Two_Numbers_Test
+    public class _0002_Add_Two_Numbers_Test
     {
-        private _002_Add_Two_Numbers _solution = null!;
+        private _0002_Add_Two_Numbers _solution = null!;
         [OneTimeSetUp]
         public void OneTimeSetUp()
         {
@@ -15,7 +15,7 @@ namespace LeetCode.Test._0001_0050
         [SetUp]
         public void SetUp()
         {
-            _solution = new _002_Add_Two_Numbers();
+            _solution = new _0002_Add_Two_Numbers();
         }
 
         [TestCase(new int[] { 2, 4, 3 }, new int[] { 5, 6, 4 }, new int[] { 7, 0, 8 })] 

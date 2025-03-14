@@ -3,7 +3,7 @@ using LeetCode._0001_0050;
 
 namespace LeetCode.Test._0001_0050
 {
-    public class _014_Longest_Common_Prefix_Test
+    public class _0014_Longest_Common_Prefix_Test
     {
 
         [Test]

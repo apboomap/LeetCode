@@ -1,6 +1,6 @@
 ﻿namespace LeetCode._0001_0050
 {
-    public class _001_Two_Sum
+    public class _0001_Two_Sum
     {
         public int[] TwoSum(int[] nums, int target)
         {

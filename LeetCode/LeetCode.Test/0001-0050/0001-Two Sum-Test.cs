@@ -6,10 +6,10 @@ using NUnit.Framework.Internal;
 namespace LeetCode.Test._0001_0050
 {
     [TestFixture]
-    public class _001_Two_Sum_Test
+    public class _0001_Two_Sum_Test
     {
         private int[] largeArray = new int[20000];
-        private _001_Two_Sum _solution = null!;
+        private _0001_Two_Sum _solution = null!;
         
          // สร้างข้อมูลเพียงครั้งเดียวก่อนรันชุดการทดสอบทั้งหมด
         [OneTimeSetUp]
@@ -24,7 +24,7 @@ namespace LeetCode.Test._0001_0050
         [SetUp]
         public void SetUp()
         {
-            _solution = new _001_Two_Sum();
+            _solution = new _0001_Two_Sum();
         }
 
         [TestCase(new int[] { 2, 7, 11, 15 }, 9)]

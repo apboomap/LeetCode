@@ -4,9 +4,9 @@ using LeetCode._0001_0050;
 
 namespace LeetCode.Test._0001_0050
 {
-    public class _005_Longest_Palindromic_Substring_Test
+    public class _0005_Longest_Palindromic_Substring_Test
     {
-        private _005_Longest_Palindromic_Substring _solution = null!;
+        private _0005_Longest_Palindromic_Substring _solution = null!;
         [OneTimeSetUp]
         public void OneTimeSetUp()
         {
@@ -15,7 +15,7 @@ namespace LeetCode.Test._0001_0050
         [SetUp]
         public void SetUp()
         {
-            _solution = new _005_Longest_Palindromic_Substring();
+            _solution = new _0005_Longest_Palindromic_Substring();
         }
 
         [TestCase("a" , "a")]

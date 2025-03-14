@@ -2,9 +2,9 @@ using LeetCode._0001_0050;
 
 namespace LeetCode.Test._0001_0050;
 
-public class _008_String_to_Integer_atoi_Test
+public class _0008_String_to_Integer_atoi_Test
 {
-    private _008_String_to_Integer_atoi _solution;
+    private _0008_String_to_Integer_atoi _solution;
 
     [SetUp]
     public void SetUp()

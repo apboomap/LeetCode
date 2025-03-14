@@ -1,6 +1,6 @@
 namespace LeetCode._0001_0050;
 
-public class _008_String_to_Integer_atoi
+public class _0008_String_to_Integer_atoi
 {
     public int MyAtoi(string s) 
     {

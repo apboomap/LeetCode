@@ -2,9 +2,9 @@ using LeetCode._0001_0050;
 
 namespace LeetCode.Test._0001_0050;
 
-public class _018_Four_Sum_Test
+public class _0018_Four_Sum_Test
 {
-    private _018_Four_Sum _solution;
+    private _0018_Four_Sum _solution;
     [SetUp]
     public void SetUp()
     {

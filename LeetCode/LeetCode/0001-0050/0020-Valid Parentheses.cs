@@ -1,6 +1,6 @@
 ﻿namespace LeetCode._0001_0050
 {
-    public class _020_Valid_Parentheses
+    public class _0020_Valid_Parentheses
     {
         public Dictionary<char, char> open = new Dictionary<char, char>
         {
@@ -31,10 +31,6 @@
                 {
                     if (value != tmpParenthese) return false;
                     stack.Pop();
-                }
-                else 
-                {
-                    return false;
                 }
             }
             return !stack.Any();

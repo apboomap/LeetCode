@@ -1,6 +1,6 @@
 namespace LeetCode._0001_0050;
 
-public class _018_Four_Sum 
+public class _0018_Four_Sum 
 {
     public IList<IList<int>> FourSum(int[] nums, int target)
     {

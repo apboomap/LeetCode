@@ -2,9 +2,9 @@ using LeetCode._0001_0050;
 
 namespace LeetCode.Test._0001_0050;
 
-public class _016_Three_Sum_Closeset_Test
+public class _0016_Three_Sum_Closeset_Test
 {
-    private _016_Three_Sum_Closeset _solution;
+    private _0016_Three_Sum_Closeset _solution;
     [SetUp]
     public void SetUp()
     {

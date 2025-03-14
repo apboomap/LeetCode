@@ -1,6 +1,6 @@
 namespace LeetCode._0001_0050;
 
-public class _015_Three_Sum 
+public class _0015_Three_Sum 
 {
     public IList<IList<int>> ThreeSum(int[] nums, int target=0)
     {

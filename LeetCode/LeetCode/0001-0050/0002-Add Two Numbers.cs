@@ -1,6 +1,6 @@
 ﻿namespace LeetCode._0001_0050
 {
-    public class _002_Add_Two_Numbers
+    public class _0002_Add_Two_Numbers
     {
         public ListNode? AddTwoNumbers(ListNode? l1, ListNode? l2, int carry =  0)
         {

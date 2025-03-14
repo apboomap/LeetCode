@@ -4,9 +4,9 @@ using LeetCode._0001_0050;
 
 namespace LeetCode.Test._0001_0050
 {
-    public class _007_Reverse_Integer_Test
+    public class _0007_Reverse_Integer_Test
     {
-        private _007_Reverse_Integer _solution = null!;
+        private _0007_Reverse_Integer _solution = null!;
         [OneTimeSetUp]
         public void OneTimeSetUp()
         {
@@ -15,7 +15,7 @@ namespace LeetCode.Test._0001_0050
         [SetUp]
         public void SetUp()
         {
-            _solution = new _007_Reverse_Integer();
+            _solution = new _0007_Reverse_Integer();
         }
 
         [TestCase(123, 321)]

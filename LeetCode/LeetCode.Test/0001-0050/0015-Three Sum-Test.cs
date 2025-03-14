@@ -2,9 +2,9 @@ using LeetCode._0001_0050;
 
 namespace LeetCode.Test._0001_0050;
 
-public class _015_Three_Sum_Test
+public class _0015_Three_Sum_Test
 {
-    private _015_Three_Sum _solution;
+    private _0015_Three_Sum _solution;
     [SetUp]
     public void SetUp()
     {

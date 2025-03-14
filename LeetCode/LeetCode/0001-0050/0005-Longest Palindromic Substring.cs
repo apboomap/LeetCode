@@ -1,6 +1,6 @@
 namespace LeetCode._0001_0050
 {
-    public class _005_Longest_Palindromic_Substring
+    public class _0005_Longest_Palindromic_Substring
     {
         /// <summary>
         /// ตาราง dp

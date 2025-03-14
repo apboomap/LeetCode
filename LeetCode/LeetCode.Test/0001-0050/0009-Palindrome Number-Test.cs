@@ -2,14 +2,14 @@
 
 namespace LeetCode.Test._0001_0050
 {
-    internal class _009_Palindrome_Number_Test
+    internal class _0009_Palindrome_Number_Test
     {
 
-        private _009_Palindrome_Number _solution = null!;
+        private _0009_Palindrome_Number _solution = null!;
         [SetUp]
         public void SetUp()
         {
-            _solution = new _009_Palindrome_Number();
+            _solution = new _0009_Palindrome_Number();
         }
 
         [TestCase(121, true)]
