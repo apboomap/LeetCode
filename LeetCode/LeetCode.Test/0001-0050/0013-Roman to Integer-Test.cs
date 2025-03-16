@@ -4,7 +4,7 @@ namespace LeetCode.Test._0001_0050
 {
     public class _0013_Roman_to_Integer_Test
     {
-         private _0013_Roman_to_Integer _solution = null!;
+        private _0013_Roman_to_Integer _solution = null!;
         [SetUp]
         public void SetUp()
         {
@@ -15,7 +15,7 @@ namespace LeetCode.Test._0001_0050
         [TestCase("LVIII", 58)]
         [TestCase("DLXVII", 567)]
         [TestCase("MCMXCIV", 1994)]
-        public void RomapToInteger_OneDigit(string s, int expected)
+        public void RomanToInteger_OneDigit(string s, int expected)
         {
             var result = _solution.RomanToInt(s);
             Assert.That(result, Is.EqualTo(expected));
@@ -24,7 +24,7 @@ namespace LeetCode.Test._0001_0050
 
 
         [TestCase("Z")]
-        public void RomapToInteger_FailString(string s)
+        public void RomanToInteger_FailString(string s)
         {
             var solution = new _0013_Roman_to_Integer();
 
@@ -32,7 +32,7 @@ namespace LeetCode.Test._0001_0050
         }
 
         [Test]
-        public void RomapToInteger_StringEmpty()
+        public void RomanToInteger_StringEmpty()
         {
             var s = "";
             var solution = new _0013_Roman_to_Integer();
@@ -41,7 +41,7 @@ namespace LeetCode.Test._0001_0050
         }
 
         [Test]
-        public void RomapToInteger_StringOverMaxLength15()
+        public void RomanToInteger_StringOverMaxLength15()
         {
             var s = "IIIIIIIIIIIIIIII";
             var solution = new _0013_Roman_to_Integer();
